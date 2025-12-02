@@ -4,6 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Navigation from './Navigation';
 import Bento from './Bento.jsx';
+import Features from './Features.jsx';
 import sofaImage from './assets/sofa.png';
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
         </div>
       </div>
       <Bento />
+      <Features />
       <div className='flex-1 flex flex-col gap-6 sm:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8'>
         
 
