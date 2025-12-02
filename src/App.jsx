@@ -8,7 +8,7 @@ import sofaImage from './assets/sofa.png';
 function App() {
 
   return (
-    <div className='bg-black w-screen min-h-screen flex flex-col text-white items-center'>
+    <div className='bg-black w-screen min-h-screen flex flex-col text-white items-center justify-center'>
       <Navigation />
       <div className='relative flex-1 flex items-center min-h-screen justify-center'>
           <img src={sofaImage} className='absolute w-auto h-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 blur-sm max-w-full max-h-full object-contain' alt="Sofa" />
@@ -49,6 +49,9 @@ function App() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur totam reprehenderit quidem aliquam quas laborum, similique fugiat debitis veniam molestiae quod aliquid distinctio, neque exercitationem suscipit ab optio commodi inventore excepturi quaerat alias illo ex. Modi rerum tempora quibusdam dolores culpa nemo labore officia facere. Veniam excepturi vero esse maxime nihil voluptas, aliquam in commodi laudantium, necessitatibus nam iste dolore expedita soluta architecto repellat quis, consequuntur culpa maiores. Rerum vitae cumque quis sed suscipit aliquam iusto voluptatum eos rem voluptate? Accusamus magnam tempora voluptas? Eveniet neque, perferendis commodi doloribus soluta ducimus quis error voluptatem. Odio, expedita. Blanditiis quis aspernatur minus!
 
       </p>
+      <div className='w-12 h-[200px] border-2 border-white'>
+      <img className='w-full h-auto' src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="img" />
+      </div>
       </div>
     </div>
   )
