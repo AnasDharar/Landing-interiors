@@ -1,13 +1,10 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Navigation from './Navigation';
 import Bento from './Bento.jsx';
 import Features from './Features.jsx';
 import sofaImage from './assets/sofa.png';
 function App() {
-
   return (
     <div className='bg-black w-screen min-h-screen flex flex-col text-white items-center justify-center'>
       <Navigation />
@@ -39,6 +36,7 @@ function App() {
               </span>
             </button>
           </div>
+
         </div>
       </div>
       <Features />
