@@ -41,8 +41,17 @@ function App() {
           </div>
         </div>
       </div>
-      <Bento />
       <Features />
+      <div className='flex flex-col items-center'>
+        <div className="relative text-3xl font-instrument-serif font-bold cursor-pointer
+                after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-violet-400 after:transition-all after:duration-300
+                hover:after:w-full">
+  Our Products
+</div>
+
+      <Bento />
+      </div>
       <div className='flex-1 flex flex-col gap-6 sm:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8'>
         
 
