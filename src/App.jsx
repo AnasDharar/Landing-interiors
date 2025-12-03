@@ -54,15 +54,39 @@ function App() {
       </div>
       <div className='flex-1 flex flex-col gap-6 sm:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8'>
         
-
-      <p className='w-full max-w-4xl flex items-center justify-center mx-auto text-center text-sm sm:text-base lg:text-lg leading-relaxed'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vero rem excepturi nostrum assumenda numquam laudantium, et deleniti consequatur quo, fugiat cupiditate, earum libero consequuntur minus dolorum tempore exercitationem sequi!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur totam reprehenderit quidem aliquam quas laborum, similique fugiat debitis veniam molestiae quod aliquid distinctio, neque exercitationem suscipit ab optio commodi inventore excepturi quaerat alias illo ex. Modi rerum tempora quibusdam dolores culpa nemo labore officia facere. Veniam excepturi vero esse maxime nihil voluptas, aliquam in commodi laudantium, necessitatibus nam iste dolore expedita soluta architecto repellat quis, consequuntur culpa maiores. Rerum vitae cumque quis sed suscipit aliquam iusto voluptatum eos rem voluptate? Accusamus magnam tempora voluptas? Eveniet neque, perferendis commodi doloribus soluta ducimus quis error voluptatem. Odio, expedita. Blanditiis quis aspernatur minus!
-
-      </p>
-      <div className='w-12 h-[200px] border-2 border-white'>
-      <img className='w-full h-auto' src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="img" />
+      <div className='flex flex-col'>
+        <div className='text-2xl sm:text-3xl md:text-4xl font-instrument-serif font-bold text-center'>
+          About
+        </div>
+        <div className='mt-4 max-w-2xl text-center text-neutral-400 font-inter mx-auto'>
+          Rubix Interiors is dedicated to transforming spaces into elegant and functional environments. With a passion for design and a commitment to quality, we work closely with our clients to bring their visions to life. Our team of experienced designers combines creativity with practicality to deliver bespoke interior solutions that reflect individual styles and needs.
+        </div>
+        <div className='flex flex-row justify-center items-center gap-6 sm:gap-8 mt-6'>
+          <div className="relative text-xl font-bold cursor-pointer
+                after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-violet-400 after:transition-all after:duration-300
+                hover:after:w-full mb-4 md:bg-transparent text-center md:text-left bg-[rgba(255,255,255,0.5)] p-2">
+                Email
+            </div>
+          <div className="relative text-xl font-bold cursor-pointer
+                after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-violet-400 after:transition-all after:duration-300
+                hover:after:w-full mb-4 md:bg-transparent text-center md:text-left bg-[rgba(255,255,255,0.5)] p-2">
+                Call
+            </div>
+          
+          <div className="relative text-xl font-bold cursor-pointer
+                after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-violet-400 after:transition-all after:duration-300
+                hover:after:w-full mb-4 md:bg-transparent text-center md:text-left bg-[rgba(255,255,255,0.5)] p-2">
+                Visit
+            </div>
+            
+        </div>
       </div>
+        <div className='text-center text-neutral-400 font-inter'>
+          © 2024 Rubix Interiors. All rights reserved.
+        </div>
       </div>
     </div>
   )
